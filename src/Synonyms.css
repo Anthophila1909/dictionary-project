@@ -1,0 +1,15 @@
+.Synonyms {
+  display: flex;
+  gap: 10px;
+}
+
+.Synonyms ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Synonyms li {
+  display: inline-block;
+  margin-right: 18px;
+}

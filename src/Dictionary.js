@@ -28,8 +28,13 @@ export default function Dictionary() {
     <div className="Dictionary">
       <h1 className="text-center">Dictionary</h1>
       <form onSubmit={handleSubmit}>
-        <input type="search" onChange={handleKeywordChange} />
-        <input type="submit" value="Go" />
+        <input
+          type="search"
+          onChange={handleKeywordChange}
+          className="input"
+          placeholder="search i.e. for cat, programming, sunrise ..."
+        />
+        <input type="submit" value="Search" className="input-button" />
       </form>
       <Response response={response} />
     </div>

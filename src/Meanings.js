@@ -8,12 +8,14 @@ export default function Meanings(props) {
       {props.meanings.map(function (meaning, index) {
         return (
           <div key={index}>
-            <h4>{meaning.partOfSpeech}</h4>
-            <p>
-              <strong>Definition:</strong> {meaning.definition}
-            </p>
-            <Examples examples={meaning.example} />
-            <Synonyms synonyms={meaning.synonyms} />
+            <section className="text-capitalize">
+              <h4 className="mb-3">{meaning.partOfSpeech}</h4>
+              <p className="mb-1">
+                <strong>Definition:</strong> {meaning.definition}
+              </p>
+              <Examples examples={meaning.example} />
+              <Synonyms synonyms={meaning.synonyms} />
+            </section>
           </div>
         );
       })}

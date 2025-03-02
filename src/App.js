@@ -5,7 +5,7 @@ import "./App.css";
 export default function App() {
   return (
     <div className="App">
-      <div className="container">
+      <div className="container pb-5">
         <main>
           <Dictionary />
         </main>

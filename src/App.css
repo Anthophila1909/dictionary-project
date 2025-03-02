@@ -1,4 +1,17 @@
+:root {
+  --main-color: #347474;
+}
+
+.container {
+  background-color: var(--main-color);
+}
+
 footer {
+  color: var(--main-color);
   font-size: 13px;
   margin: 25px 0;
+}
+
+footer a {
+  color: var(--main-color);
 }
