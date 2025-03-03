@@ -1,5 +1,5 @@
 :root {
-  --main-color: #c3bef0;
+  --main-color: #927fbf;
 }
 
 .Dictionary h1 {
@@ -27,8 +27,8 @@
 }
 
 .Dictionary .input-button {
-  background-color: white;
-  color: var(--main-color);
+  background-color: #927fbf;
+  color: white;
   font-size: 17px;
   line-height: 2.3;
   padding: 5px 20px;

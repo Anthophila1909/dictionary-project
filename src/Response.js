@@ -12,7 +12,7 @@ export default function Response(props) {
         <section>
           <h2 className="text-capitalize">{searchTerm}</h2>
           <h3>
-            <em>{phonetic}</em>
+            <em>/{phonetic}/</em>
           </h3>
         </section>
         <Meanings meanings={meanings} />
