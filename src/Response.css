@@ -1,8 +1,8 @@
 :root {
-  --main-color: green;
+  --main-color: #927fbf;
 }
 
-.Response section {
+section {
   background-color: white;
   color: var(--main-color);
   max-width: 960px;
